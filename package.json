@@ -1,0 +1,14 @@
+{
+  "name": "auction-timer-app",
+  "version": "1.0.0",
+  "description": "Always-on-top Auction House Timer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . AuctionTimer --platform=win32,linux,darwin --arch=x64 --overwrite"
+  },
+  "devDependencies": {
+    "electron": "^26.0.0",
+    "electron-packager": "^17.0.0"
+  }
+}
